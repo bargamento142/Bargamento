@@ -9,11 +9,7 @@ public class BankClass {
     
     public boolean verifyAccount(int acc, int pn){
         
-            if (pn == pin && accountNumber == acc){
-                return true;
-            }else{
-                return false;
-            }
+        return !(acc != accountNumber || pn != pin);
     }
     
     public int setAccount(){
@@ -21,7 +17,6 @@ public class BankClass {
     }
     
     public void viewBalance(){
-    
     
     }
     

@@ -2,7 +2,7 @@ package OOP;
 
 import java.util.Scanner;
 
-public class Remy{
+public class Activity{
 
     public static void main(String[] args) {
         
