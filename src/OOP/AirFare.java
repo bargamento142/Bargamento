@@ -36,6 +36,6 @@ public class AirFare {
             totalFare *= 0.9;
         }
         
-        System.out.printf("Total fare: ₱%,.2f%n", totalFare);
+        System.out.printf("Total fare: %.2f%n", totalFare);
     }
 }
