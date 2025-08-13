@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class AirFare {
     public static void main(String[] args) {
  
-        final int ECONOMY_FARE = 250;
-        final int BUSINESS_FARE = 500;
+        int ECONOMY_FARE = 250;
+        int BUSINESS_FARE = 500;
 
         Scanner scanner = new Scanner(System.in);
 
